@@ -410,8 +410,10 @@ body{transition:background .35s,color .35s}
 :root[data-theme=light] .socials svg{fill:var(--text)}
 :root[data-theme=light] .hero-photo img{filter:grayscale(1) contrast(1.12) brightness(1.02)}
 :root[data-theme=light] .hero-photo::before{background:radial-gradient(closest-side,rgba(255,255,255,.7),rgba(255,255,255,.25) 55%,transparent)}
-/* showcase panel stays a dark card with light text */
-:root[data-theme=light] .show{--text:#fff;--muted:#a1a1a1;color:#fff;border-color:#1d2430}
+/* showcase panel matches the light theme */
+:root[data-theme=light] .show{background:radial-gradient(120% 120% at 20% 10%,#fff,#f0f2f5 60%);border-color:var(--line)}
+:root[data-theme=light] .show-visual img{border-color:#cfd4db;box-shadow:0 20px 50px rgba(15,23,42,.15)}
+:root[data-theme=light] .thumbs span{color:var(--text);background:rgba(255,255,255,.85)}
 /* text blocks */
 :root[data-theme=light] .two p,:root[data-theme=light] .lead-p,:root[data-theme=light] .tl .d{color:#475569}
 :root[data-theme=light] .two p b{color:var(--text)}
