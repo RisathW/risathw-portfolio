@@ -120,8 +120,3 @@ const closeLb = () => { lb.classList.remove('open'); lb.setAttribute('aria-hidde
 lb.addEventListener('click', closeLb);
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLb(); });
 
-// "Show more" for the limited galleries
-document.querySelectorAll('.show-more').forEach(b => b.addEventListener('click', () => {
-  const g = $(b.dataset.target), open = g.classList.toggle('open');
-  b.textContent = open ? 'Show less' : 'Show more';
-}));

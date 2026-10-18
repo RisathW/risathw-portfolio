@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://risath-portfolio.vercel.app/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -11,34 +11,25 @@
       <image:caption>Risath Athsara Wijethunga, co-founder of Fortechz</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/images/photo-cutout.png</image:loc>
-      <image:title>Portrait of Risath Athsara Wijethunga</image:title>
-      <image:caption>Portrait of Risath Athsara Wijethunga</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/screenshots/fortechz.jpg</image:loc>
-      <image:title>Fortechz website</image:title>
-      <image:caption>Fortechz website</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/screenshots/sakura.jpg</image:loc>
-      <image:title>Sakura</image:title>
-      <image:caption>Sakura</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/screenshots/artifex.jpg</image:loc>
-      <image:title>ArtifeX</image:title>
-      <image:caption>ArtifeX</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/photography/dsc03472.jpg</image:loc>
-      <image:title>Photography</image:title>
-      <image:caption>Photography</image:caption>
+      <image:loc>https://risath-portfolio.vercel.app/assets/images/photo-hero.png</image:loc>
+      <image:title>Risath Athsara Wijethunga</image:title>
+      <image:caption>Risath Athsara Wijethunga</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://risath-portfolio.vercel.app/assets/images/sunset-gray.jpg</image:loc>
-      <image:title>Risath Athsara Wijethunga looking out at the sea at sunset, seen from behind</image:title>
-      <image:caption>Risath Athsara Wijethunga looking out at the sea at sunset, seen from behind</image:caption>
+      <image:title>Risath looking out at the sea at sunset</image:title>
+      <image:caption>Risath looking out at the sea at sunset</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://risath-portfolio.vercel.app/assets/screenshots/fortechz.jpg</image:loc>
+      <image:title>Project screenshot</image:title>
+      <image:caption>Project screenshot</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://risath-portfolio.vercel.app/assets/screenshots/sakura.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://risath-portfolio.vercel.app/assets/screenshots/artifex.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://risath-portfolio.vercel.app/assets/work/kuweni.jpg</image:loc>
@@ -57,8 +48,8 @@
     </image:image>
     <image:image>
       <image:loc>https://risath-portfolio.vercel.app/assets/work/travel-destination-banner.jpg</image:loc>
-      <image:title>Travel Destination · Roll-up Banner</image:title>
-      <image:caption>Travel Destination · Roll-up Banner</image:caption>
+      <image:title>Travel Destination</image:title>
+      <image:caption>Travel Destination</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://risath-portfolio.vercel.app/assets/work/rahula-scout-jamboree.jpg</image:loc>
@@ -96,6 +87,21 @@
       <image:caption>Illustrator Art</image:caption>
     </image:image>
     <image:image>
+      <image:loc>https://risath-portfolio.vercel.app/assets/photography/dsc03773.jpg</image:loc>
+      <image:title>Jeep safari</image:title>
+      <image:caption>Jeep safari</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://risath-portfolio.vercel.app/assets/photography/dsc03840.jpg</image:loc>
+      <image:title>Gentle giant</image:title>
+      <image:caption>Gentle giant</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://risath-portfolio.vercel.app/assets/photography/dsc03472.jpg</image:loc>
+      <image:title>Night market</image:title>
+      <image:caption>Night market</image:caption>
+    </image:image>
+    <image:image>
       <image:loc>https://risath-portfolio.vercel.app/assets/photography/dsc03599.jpg</image:loc>
       <image:title>Vesak lanterns</image:title>
       <image:caption>Vesak lanterns</image:caption>
@@ -125,16 +131,21 @@
       <image:title>Lantern glow</image:title>
       <image:caption>Lantern glow</image:caption>
     </image:image>
+    <image:image>
+      <image:loc>https://risath-portfolio.vercel.app/assets/photography/dsc03860.jpg</image:loc>
+      <image:title>Framing the lake</image:title>
+      <image:caption>Framing the lake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://risath-portfolio.vercel.app/blog.html</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://risath-portfolio.vercel.app/social.html</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <image:image>

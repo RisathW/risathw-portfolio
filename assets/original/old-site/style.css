@@ -1,4 +1,4 @@
-:root{--bg:#000;--card:#0b0b0b;--card2:#111;--text:#fff;--muted:#a1a1a1;--line:#1c1c1c;--accent:#f07226;--w:1000px}
+:root{--bg:#000;--card:#0b0b0b;--card2:#111;--text:#fff;--muted:#a1a1a1;--line:#1c1c1c;--accent:#f07226;--w:100vw}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--text);font:300 16px/1.6 Inter,system-ui,sans-serif;overflow-x:hidden}
@@ -196,7 +196,7 @@ i.sk{background:url(assets/logos/sakura.png) center/contain no-repeat #fff}
 .more-note{margin-top:18px;color:var(--muted);font-size:.9rem}.more-note a{color:#fff}.more-note a:hover{color:var(--accent)}
 .lightbox{position:fixed;inset:0;z-index:50;background:rgba(0,0,0,.92);display:grid;place-items:center;opacity:0;pointer-events:none;transition:opacity .3s;cursor:zoom-out}
 .lightbox.open{opacity:1;pointer-events:auto}
-.lightbox img{max-width:92vw;max-height:90vh;border-radius:12px;box-shadow:0 30px 90px #000}
+.lightbox img{width:100vw;height:100vh;object-fit:contain;border-radius:0}
 .lightbox button{position:absolute;top:22px;right:26px;font-size:1.4rem;color:#fff}
 
 /* footer on the sunset photo */
@@ -290,8 +290,6 @@ h1{font-size:clamp(2.5rem,6.6vw,4.4rem)}
 /* header wordmark, limited galleries */
 .who.rw{font-size:1.5rem;font-weight:600;letter-spacing:-.02em;background:none}
 .who.rw span{color:var(--accent)}
-.extra{display:none}
-.open>.extra{display:block}
 .show-more{margin-top:10px;padding:10px 26px;border-radius:99px;border:1px solid #2a2a2a;color:#cfcfcf;font-size:.9rem;transition:.2s}
 .show-more:hover{color:#000;background:#fff;border-color:#fff}
 
@@ -474,3 +472,73 @@ html{scroll-padding-top:72px}
 @media(max-width:760px){.social-mini{grid-template-columns:1fr}.sm-photos img{min-height:140px}}
 
 .theme-switching .hero-photo img,.theme-switching .hero-photo::before{transition:none!important}
+
+
+/* full-width galleries */
+#work,#photography{max-width:none;padding-left:clamp(16px,3vw,48px);padding-right:clamp(16px,3vw,48px)}
+.photo-grid{column-count:4}
+.gal{column-count:4}
+@media(max-width:1100px){.photo-grid,.gal{column-count:3}}
+@media(max-width:800px){.photo-grid,.gal{column-count:2}}
+@media(max-width:520px){.photo-grid,.gal{column-count:1}}
+
+/* full-width layout for every section */
+.sec,.hero-in{max-width:none}
+.sec{padding-left:clamp(16px,4vw,72px);padding-right:clamp(16px,4vw,72px)}
+.top{padding-left:clamp(16px,4vw,72px);padding-right:clamp(16px,4vw,72px)}
+.hero-copy{margin-left:clamp(16px,4vw,72px)!important}
+
+/* hero portrait: fills the screen height, head fully visible */
+@media(min-width:801px){
+ .hero-photo{right:max(0px,2vw);bottom:0}
+ .hero-photo img{height:calc(100vh - 70px);max-height:none}
+ .hero-copy{max-width:620px}
+}
+
+/* ===== Graphic-portfolio spreads: grain, bold type, script accents ===== */
+:root{--script:"Mrs Saint Delafield",cursive;--display:Poppins,Inter,sans-serif}
+body:after{content:"";position:fixed;inset:0;z-index:90;pointer-events:none;opacity:.22;mix-blend-mode:overlay;
+ background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.script{font-family:var(--script);font-style:normal;font-weight:400;color:var(--accent);letter-spacing:0;line-height:1}
+.sec>h2,.two h2,.hello h2,.contents h2{font-family:var(--display)}
+.sec>h2{position:relative;font-weight:700;font-size:clamp(2.4rem,6vw,5rem);letter-spacing:-.03em;line-height:1.05;margin-bottom:46px}
+.sec>h2 .script,.two h2 .script{display:inline-block;font-size:.8em;margin-left:.2em;transform:rotate(-6deg) translateY(.15em)}
+.two h2{font-weight:700;letter-spacing:-.02em}
+.sec{counter-increment:spread}
+.sec>h2:before{content:counter(spread,decimal-leading-zero);position:absolute;left:-.05em;top:-.62em;z-index:-1;font-size:1.9em;font-weight:800;color:var(--text);opacity:.07;letter-spacing:-.05em}
+/* paper spreads */
+.paper,#pos,#story,#process,#photography,#recognition{--bg:#ecebe8;--card:#fff;--card2:#f4f3f0;--text:#111;--muted:#555;--line:#cfcdc7;--accent:#d9600f;background:#ecebe8;color:var(--text)}
+#pos,#story,#process,#photography,#recognition,#showcase,#career,#social,#work,#code,#journey{padding-bottom:110px}
+#pos,#story,#process,#photography,#recognition,#showcase,#career,#social,#work,#code,#journey{margin-top:0}
+.paper .lead-p,.paper p,#pos p,#story p,#process p,#recognition p{color:#444}
+.paper h3,#pos h3,#story h3,#process h3,#photography h3,#recognition h3,#pos h2,#story h2,#process h2,#photography h2,#recognition h2{color:#111}
+.paper .bl,#pos .bl,#story .bl{color:#111}
+/* hello spread */
+.hello{position:relative;display:grid;grid-template-columns:1.1fr .9fr;align-items:end;gap:20px;padding:150px clamp(16px,4vw,72px) 0;overflow:hidden;min-height:92vh}
+.hello h2{font-size:clamp(4rem,13vw,10rem);font-weight:800;letter-spacing:-.05em;line-height:.95;color:#000}
+.hello .who-line{font:700 clamp(1.1rem,2vw,1.5rem)/1.2 var(--display);color:#111;margin-top:6px}
+.hello .about-me{display:block;font-size:2.6rem;margin:18px 0 4px 40%;transform:rotate(-5deg)}
+.hello .lead{font:500 1.15rem/1.6 var(--display);color:#111;margin:10px 0 14px;max-width:34em}
+.hello p{max-width:34em;color:#333}
+.hello-photo{align-self:end;justify-self:end;width:min(100%,520px);filter:grayscale(1) contrast(1.1);margin-bottom:0}
+/* contents spread */
+.contents{background:#000;padding:110px clamp(16px,4vw,72px)}
+.contents h2{position:relative;font-size:clamp(3rem,9vw,7rem);font-weight:800;letter-spacing:-.05em;line-height:1;margin-bottom:60px}
+.contents h2 .script{font-size:.45em;position:absolute;left:1.6em;top:-.2em;transform:rotate(-7deg)}
+.contents ol{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:50px 30px}
+.contents a{position:relative;display:block;padding:30px 0 0 14px}
+.contents em{position:absolute;left:0;top:0;font:800 5rem/1 var(--display);font-style:normal;color:#fff;opacity:.13}
+.contents b{position:relative;font:700 clamp(1.4rem,2.6vw,2.2rem)/1 var(--display)}
+.contents .script{position:relative;display:inline-block;font-size:2.2rem;margin-left:-.15em;transform:translateY(.45em) rotate(-4deg)}
+.contents a:hover b{color:var(--accent)}
+@media(max-width:800px){.hello{grid-template-columns:1fr;padding-top:110px}.hello-photo{width:70%}.contents ol{grid-template-columns:1fr 1fr}.hello .about-me{margin-left:0}}
+.hello{align-items:center;min-height:0;padding-bottom:0}
+.hello-photo{width:auto;height:min(82vh,780px);max-width:100%;align-self:end}
+.hello .about-me{font-size:clamp(3rem,5vw,4.4rem);margin:26px 0 10px 18%;transform:rotate(-4deg);position:static}
+.hello .lead{margin-top:24px}
+.hello-photo{height:min(96vh,900px);justify-self:center}
+.hello h2{font-size:clamp(5rem,15vw,12rem)}
+#photography p,#photography .sub,#photography .lead-p,#pos p,#story p,#process p,#recognition p,#story figcaption{color:#3a3a3a!important}
+#photography .ph-logo{filter:invert(1)}
+#photography .eyebrow,#pos .eyebrow,#story .eyebrow{color:#d9600f}
+#photography .btn,#photography a.btn{color:#111}
