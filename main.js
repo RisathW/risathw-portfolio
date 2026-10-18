@@ -1,19 +1,32 @@
 (function(){
-  /* loading screen: once per session, ~1s */
-  var ldr=document.getElementById('loader');
+  /* loading screen: every page load, plus when leaving for another page */
+  var ldr=document.getElementById('loader'),de=document.documentElement;
   if(ldr){
-    var de=document.documentElement,bar=ldr.querySelector('i'),pct=document.getElementById('pct'),n=0,ready=false,t0=Date.now();
-    var fin=function(){de.classList.remove('ld');ldr.classList.add('done');try{sessionStorage.setItem('ld','1')}catch(e){}setTimeout(function(){ldr.remove()},700)};
-    if(!de.classList.contains('ld'))ldr.remove();
-    else{
-      addEventListener('load',function(){ready=true});
-      var tick=setInterval(function(){
-        var cap=ready?100:90;n=Math.min(cap,n+(ready?6:2+Math.random()*3));
+    var bar=ldr.querySelector('i'),pct=document.getElementById('pct'),n=0,ready=document.readyState==='complete',t0=Date.now(),tick;
+    var fin=function(){ldr.classList.add('done');setTimeout(function(){if(ldr.classList.contains('done'))de.classList.remove('ld')},650)};
+    var run=function(){
+      clearInterval(tick);n=0;t0=Date.now();ldr.classList.remove('done');
+      tick=setInterval(function(){
+        n=Math.min(ready?100:90,n+(ready?9:3+Math.random()*3));
         bar.style.width=n+'%';pct.textContent=Math.round(n);
-        if(n>=100&&Date.now()-t0>900){clearInterval(tick);setTimeout(fin,150)}
+        if(n>=100&&Date.now()-t0>650){clearInterval(tick);setTimeout(fin,120)}
       },40);
-      setTimeout(function(){ready=true},4000);
-    }
+    };
+    if(de.classList.contains('ld')){
+      addEventListener('load',function(){ready=true});
+      setTimeout(function(){ready=true},3000);
+      run();
+    }else ldr.classList.add('done');
+    /* coming back with the browser Back button (cached page) */
+    addEventListener('pageshow',function(e){if(e.persisted){de.classList.remove('ld');ldr.classList.add('done');ldr.style.display=''}});
+    /* show it again when moving to another page of the site */
+    document.addEventListener('click',function(e){
+      var a=e.target.closest&&e.target.closest('a[href]');
+      if(!a||e.defaultPrevented||e.button||e.metaKey||e.ctrlKey||e.shiftKey||a.target==='_blank'||a.hasAttribute('download'))return;
+      var u=new URL(a.href,location.href);
+      if(u.origin!==location.origin||(u.pathname===location.pathname&&u.search===location.search))return;
+      clearInterval(tick);ldr.style.display='';de.classList.add('ld');ldr.classList.remove('done');bar.style.width='25%';pct.textContent='25';
+    });
   }
 
   var $=function(s,c){return (c||document).querySelector(s)},$$=function(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s))};
