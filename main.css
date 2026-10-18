@@ -266,6 +266,17 @@ cite{color:var(--mut);font-size:14px;font-style:normal}
   .story{grid-template-columns:1fr}
 }
 
+/* ---------- loading screen ---------- */
+.loader{position:fixed;inset:0;z-index:999;background:var(--bg);display:none;place-items:center;align-content:center;gap:22px;transition:opacity .6s,visibility .6s}
+.ld .loader{display:grid}
+.ld body{overflow:hidden}
+.loader.done{opacity:0;visibility:hidden}
+.loader img{height:54px;width:auto;animation:pulse 1.4s ease-in-out infinite}
+.loader .bar{width:min(220px,60vw);height:2px;background:var(--line);border-radius:2px;overflow:hidden}
+.loader .bar i{display:block;height:100%;width:0;background:var(--or);box-shadow:0 0 12px var(--or);transition:width .2s}
+.loader span{font-size:12px;letter-spacing:.3em;color:var(--dim);font-weight:600}
+@keyframes pulse{50%{opacity:.55;transform:scale(.96)}}
+
 /* ---------- phone polish ---------- */
 @media(max-width:600px){
   html{scroll-padding-top:72px}
