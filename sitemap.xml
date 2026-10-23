@@ -1,196 +1,250 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://risath-portfolio.vercel.app/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://risathw.github.io/risathw-portfolio/</loc>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/brand/og-image.png</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/brand/og-image.png</image:loc>
       <image:title>Risath Athsara Wijethunga, co-founder of Fortechz</image:title>
       <image:caption>Risath Athsara Wijethunga, co-founder of Fortechz</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/images/photo-hero.png</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/images/photo-hero.png</image:loc>
       <image:title>Risath Athsara Wijethunga</image:title>
       <image:caption>Risath Athsara Wijethunga</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/images/sunset-gray.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/images/sunset-gray.jpg</image:loc>
       <image:title>Risath looking out at the sea at sunset</image:title>
       <image:caption>Risath looking out at the sea at sunset</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/screenshots/fortechz.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/screenshots/fortechz.jpg</image:loc>
       <image:title>Project screenshot</image:title>
       <image:caption>Project screenshot</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/screenshots/sakura.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/screenshots/sakura.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/screenshots/artifex.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/screenshots/artifex.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/work/kuweni.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/work/kuweni.jpg</image:loc>
       <image:title>Kuweni The Musical</image:title>
       <image:caption>Kuweni The Musical</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/work/lewis-hamilton.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/work/lewis-hamilton.jpg</image:loc>
       <image:title>Lewis Hamilton · Ferrari</image:title>
       <image:caption>Lewis Hamilton · Ferrari</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/work/saventra-stay.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/work/saventra-stay.jpg</image:loc>
       <image:title>Saventra Villas · Stay With Us</image:title>
       <image:caption>Saventra Villas · Stay With Us</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/work/travel-destination-banner.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/work/travel-destination-banner.jpg</image:loc>
       <image:title>Travel Destination</image:title>
       <image:caption>Travel Destination</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/work/rahula-scout-jamboree.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/work/rahula-scout-jamboree.jpg</image:loc>
       <image:title>Rahula Scout Contingent</image:title>
       <image:caption>Rahula Scout Contingent</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/work/maduranga-dance-academy.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/work/maduranga-dance-academy.jpg</image:loc>
       <image:title>Maduranga Dance Academy</image:title>
       <image:caption>Maduranga Dance Academy</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/work/saventra-home.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/work/saventra-home.jpg</image:loc>
       <image:title>Saventra Villas · Feel At Home</image:title>
       <image:caption>Saventra Villas · Feel At Home</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/work/supra.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/work/supra.jpg</image:loc>
       <image:title>Supra MK4</image:title>
       <image:caption>Supra MK4</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/work/rahula-band-certificate.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/work/rahula-band-certificate.jpg</image:loc>
       <image:title>Rahula Western Band</image:title>
       <image:caption>Rahula Western Band</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/work/dilshan.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/work/dilshan.jpg</image:loc>
       <image:title>Dilshan Abeygunawardana</image:title>
       <image:caption>Dilshan Abeygunawardana</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/work/illustrator-art.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/work/illustrator-art.jpg</image:loc>
       <image:title>Illustrator Art</image:title>
       <image:caption>Illustrator Art</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/photography/dsc03773.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/photography/dsc03773.jpg</image:loc>
       <image:title>Jeep safari</image:title>
       <image:caption>Jeep safari</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/photography/dsc03840.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/photography/dsc03840.jpg</image:loc>
       <image:title>Gentle giant</image:title>
       <image:caption>Gentle giant</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/photography/dsc03472.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/photography/dsc03472.jpg</image:loc>
       <image:title>Night market</image:title>
       <image:caption>Night market</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/photography/dsc03599.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/photography/dsc03599.jpg</image:loc>
       <image:title>Vesak lanterns</image:title>
       <image:caption>Vesak lanterns</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/photography/dsc03462.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/photography/dsc03462.jpg</image:loc>
       <image:title>Promenade lights</image:title>
       <image:caption>Promenade lights</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/photography/dsc03439.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/photography/dsc03439.jpg</image:loc>
       <image:title>Street at dusk</image:title>
       <image:caption>Street at dusk</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/photography/dsc03443.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/photography/dsc03443.jpg</image:loc>
       <image:title>Evening ride by the sea</image:title>
       <image:caption>Evening ride by the sea</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/photography/dsc03494.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/photography/dsc03494.jpg</image:loc>
       <image:title>City after dark</image:title>
       <image:caption>City after dark</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/photography/dsc03630.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/photography/dsc03630.jpg</image:loc>
       <image:title>Lantern glow</image:title>
       <image:caption>Lantern glow</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/photography/dsc03860.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/photography/dsc03860.jpg</image:loc>
       <image:title>Framing the lake</image:title>
       <image:caption>Framing the lake</image:caption>
     </image:image>
   </url>
   <url>
-    <loc>https://risath-portfolio.vercel.app/blog.html</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://risathw.github.io/risathw-portfolio/blog.html</loc>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://risath-portfolio.vercel.app/social.html</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://risathw.github.io/risathw-portfolio/social.html</loc>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/social/health-camp-speaker.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/social/health-camp-speaker.jpg</image:loc>
       <image:title>A speaker addressing the children at the health camp</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/social/health-camp-scout.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/social/health-camp-scout.jpg</image:loc>
       <image:title>A scout at work during the health camp</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/social/health-camp-pupils.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/social/health-camp-pupils.jpg</image:loc>
       <image:title>Primary school pupils seated and listening at the health camp</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/social/blood-donation-scouts.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/social/blood-donation-scouts.jpg</image:loc>
       <image:title>A group of Rahula College scouts in uniform posing together</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/social/blood-tubes.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/social/blood-tubes.jpg</image:loc>
       <image:title>Blood sample tubes with red caps in a tray at the blood donation camp</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/social/blood-vials.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/social/blood-vials.jpg</image:loc>
       <image:title>Labelled blood sample tubes in a rack</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/social/blood-bags.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/social/blood-bags.jpg</image:loc>
       <image:title>Collected blood bags in a green crate</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/social/blood-tray.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/social/blood-tray.jpg</image:loc>
       <image:title>Medical instruments and supplies on a tray</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/social/blood-hall.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/social/blood-hall.jpg</image:loc>
       <image:title>The donation hall with rows of tables and green covers</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/social/waren-heen-sare-concert.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/social/waren-heen-sare-concert.jpg</image:loc>
       <image:title>The Waren Heen Sare team on stage with the Leo Club of Rahula College banner</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://risath-portfolio.vercel.app/assets/social/jamboree-contingent.jpg</image:loc>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/social/jamboree-contingent.jpg</image:loc>
       <image:title>Rahula College Scout Contingent representing Sri Lanka at the 19th National Jamboree</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://risathw.github.io/risathw-portfolio/photography.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/photography/behind-the-lens.jpg</image:loc>
+      <image:title>Risath behind his Sony camera</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/photography/dsc03773.jpg</image:loc>
+      <image:title>Jeep safari</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/photography/dsc03840.jpg</image:loc>
+      <image:title>Gentle giant</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/photography/dsc03472.jpg</image:loc>
+      <image:title>Night market</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/photography/dsc03599.jpg</image:loc>
+      <image:title>Vesak lanterns</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/photography/dsc03462.jpg</image:loc>
+      <image:title>Promenade lights</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/photography/dsc03439.jpg</image:loc>
+      <image:title>Street at dusk</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/photography/dsc03443.jpg</image:loc>
+      <image:title>Evening ride by the sea</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/photography/dsc03494.jpg</image:loc>
+      <image:title>City after dark</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/photography/dsc03630.jpg</image:loc>
+      <image:title>Lantern glow</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/photography/dsc03860.jpg</image:loc>
+      <image:title>Framing the lake</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://risathw.github.io/risathw-portfolio/assets/photography/sony-a7iii.jpg</image:loc>
+      <image:title>Sony A7 III camera held over a green lawn</image:title>
     </image:image>
   </url>
 </urlset>
