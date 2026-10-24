@@ -57,7 +57,11 @@ same_as = [
 
 def image_objects(items, creator_id):
     return [{"@type": "ImageObject", "contentUrl": url(p), "name": a or os.path.basename(p),
-             "caption": a or os.path.basename(p), "creator": {"@id": creator_id}} for p, a in items]
+             "caption": a or os.path.basename(p), "creator": {"@id": creator_id},
+             "creditText": "Risath Athsara Wijethunga",
+             "copyrightNotice": "© 2026 Risath Athsara Wijethunga. All rights reserved.",
+             "license": url("index.html#license"),
+             "acquireLicensePage": url("index.html#contact")} for p, a in items]
 
 
 graph = [
